@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://wallpaperaccess.com/full/1644067.jpg'); /* Set background image for the entire page */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6); /* Adds an overlay effect */
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Light background for form elements */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.student-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.student-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.student-form button:hover {
+  background-color: #218838;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: black;
+}
+
+.student-item span {
+  font-size: 16px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
